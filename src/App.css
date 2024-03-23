@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+* {
+  font-size: 10px;
+  --font-size: 2rem;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  width: 80%;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.logo span {
+  font-size: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.text-primary {
+  color: #fb9333;
+}
+
+.mr-1 {
+  margin-right: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.text-white {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+button,
+input {
+  outline: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bg-primary {
+  background-color: #fb9333;
 }
+
+.bg-secondary {
+  background-color: #fff0dc;
+}
+
+h1,
+h2,
+h3 {
+  color: #585858;
+}
+
+p,
+span {
+  color: #575757;
+}
+
+.bg-wrapper {
+  background: linear-gradient(180deg, #fff6ea 0%, rgba(255, 232, 199, 0.5) 100%);
+}
+
+.text-center {
+  text-align: center;
+}/*# sourceMappingURL=App.css.map */

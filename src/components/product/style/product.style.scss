@@ -1,0 +1,29 @@
+.product {
+  background-image: url(../../../assets/images/product-img-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: calc(33.33% - 2rem);
+  height: 30rem;
+  border-radius: 1.5rem;
+  margin-right: 2rem;
+  position: relative;
+  margin-top: 4rem;
+  &-content {
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+  }
+  &-name,
+  &-price {
+    color: white;
+  }
+  &-name {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+  }
+  &-price {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}

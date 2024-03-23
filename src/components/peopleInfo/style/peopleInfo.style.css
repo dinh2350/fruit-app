@@ -1,0 +1,28 @@
+.info {
+  width: 25%;
+  background-color: white;
+  position: relative;
+  margin-left: 3rem;
+  flex-grow: 1;
+}
+.info-img {
+  position: absolute;
+  top: -2rem;
+  left: 1rem;
+  width: 25%;
+  height: 4rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1rem;
+}
+.info-main {
+  padding: 6rem 2rem 2rem 2rem;
+}
+.info-name {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+.info-desc {
+  margin-top: 1rem;
+}/*# sourceMappingURL=peopleInfo.style.css.map */

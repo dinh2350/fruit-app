@@ -1,0 +1,15 @@
+.header {
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-navLink {
+  display: flex;
+}
+.header-navLink li {
+  font-size: 1.5rem;
+}
+.header-navLink li:not(:last-child) {
+  margin-right: 3rem;
+}/*# sourceMappingURL=style.header.css.map */

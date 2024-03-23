@@ -1,0 +1,49 @@
+.banner {
+  display: flex;
+  &-content {
+    width: 50%;
+  }
+  &-media {
+    width: 50%;
+  }
+  &-hashtag {
+    background-color: #fff0dc;
+    padding: 1rem;
+    border-radius: 3rem;
+    display: inline-block;
+    color: #fb9333;
+    font-weight: bold;
+  }
+  &-title {
+    font-weight: 900;
+    margin-top: 2rem;
+    font-size: 5rem;
+    span {
+      font-size: inherit;
+    }
+  }
+  &-desc {
+    font-size: 1.5rem;
+    width: 80%;
+    line-height: 1.2;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  &-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  &-count {
+    display: flex;
+    margin-top: 4rem;
+  }
+  &-item {
+    margin-right: 3rem;
+    &-number {
+      margin-bottom: 0.5rem;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+  }
+}

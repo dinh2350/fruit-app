@@ -1,0 +1,35 @@
+.footer {
+  margin-bottom: 2rem;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.footer h2, .footer-social {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+.footer-info {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.footer-features li:not(:last-child) {
+  margin-bottom: 1rem;
+}
+.footer-contact-item {
+  margin-bottom: 1rem;
+}
+.footer-contact-item span {
+  margin-left: 1rem;
+}
+.footer-social-item {
+  margin-right: 1rem;
+}
+.footer-social-icon {
+  font-size: 1.5rem;
+}/*# sourceMappingURL=footer.style.css.map */
